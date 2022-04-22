@@ -22,9 +22,13 @@ h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+}
+.text { 
+    font-size: larger;
 }
 .container { 
-    max-width: 1200px;
+    max-width: 2000px;
     margin: 0 30px;
     padding: 0 30px;
 }
@@ -58,4 +62,57 @@ button {background-color: #3882f6;}
     font-style: italic;
     color: #1F2937;
 }
+.navbar .container{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
 
+.header img {
+    width: 600px;
+    height: 300px;
+}
+.boxes .box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quote .container{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+
+}
+.container p {align-self: flex-end;}
+.alert-text .container {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.box img {
+    height: 300px;
+    width: 300px;
+}
+.quote p{
+    align-self: flex-end;
+}
