@@ -28,7 +28,7 @@ h2 {
     font-size: larger;
 }
 .container { 
-    max-width: 500px;
+    max-width: 1600px;
     margin: 0 30px;
     padding: 0 30px;
 }
@@ -66,12 +66,12 @@ button {background-color: #3882f6;}
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 100px;
+    padding: px;
     height: 100px;
 }
 .header .container{
     height: 500px;
-    padding: 100px;
+    padding: 10px;
 }
 .header p {
     font-size: medium;
@@ -91,7 +91,7 @@ button {background-color: #3882f6;}
 
     height: 300px;
     width: 1800px;
-    border-radius: 15px;
+   
 }
 .boxes .box{
     display: flex;
