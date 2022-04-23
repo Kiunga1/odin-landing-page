@@ -108,14 +108,12 @@ button {background-color: #3882f6;}
 .container p {align-self: flex-end;}
 .alert-text .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 150px;
     width: 1000px;
     align-items: center;
     flex-wrap: nowrap;
-    margin: 100px 100px 100px 100px;
-    border: 100px;
-    padding: 100px;
+    
 }
 .footer .container{
     display: flex;
@@ -129,4 +127,12 @@ button {background-color: #3882f6;}
 }
 .quote p{
     align-self: flex-end;
+}
+.alert-text{
+    margin: 80px;
+    padding: 10px;
+    border: 10px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: larger;
 }
